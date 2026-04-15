@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="HabitFlow" />
+  <title>HabitFlow</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="app">
+
+    <!-- Sidebar Nav -->
+    <nav id="sidebar">
+      <div class="sidebar-header">
+        <div class="app-logo">
+          <span class="logo-icon">◆</span>
+          <span class="logo-text">HabitFlow</span>
+        </div>
+      </div>
+      <ul class="nav-list">
+        <li class="nav-item active" data-view="today">
+          <span class="nav-icon">☀</span>
+          <span class="nav-label">Today</span>
+        </li>
+        <li class="nav-item" data-view="weekly">
+          <span class="nav-icon">📅</span>
+          <span class="nav-label">Weekly</span>
+        </li>
+        <li class="nav-item" data-view="stats">
+          <span class="nav-icon">📊</span>
+          <span class="nav-label">Statistics</span>
+        </li>
+        <li class="nav-item" data-view="manage">
+          <span class="nav-icon">⚙</span>
+          <span class="nav-label">Manage</span>
+        </li>
+      </ul>
+      <div class="sidebar-footer">
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle dark mode">
+          <span class="theme-icon">🌙</span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main">
+
+      <!-- TODAY VIEW -->
+      <section id="view-today" class="view active">
+        <header class="view-header">
+          <div class="header-left">
+            <h1 class="view-title">Today</h1>
+            <p id="today-date" class="view-subtitle"></p>
+          </div>
+          <div class="header-right">
+            <div id="progress-ring-container" class="progress-ring-wrap">
+              <svg class="progress-ring" viewBox="0 0 64 64">
+                <circle class="ring-bg" cx="32" cy="32" r="26" />
+                <circle id="ring-fill" class="ring-fill" cx="32" cy="32" r="26" />
+              </svg>
+              <span id="ring-pct" class="ring-pct">0%</span>
+            </div>
+          </div>
+        </header>
+
+        <div id="today-habits" class="habits-list"></div>
+
+        <div id="today-empty" class="empty-state hidden">
+          <div class="empty-icon">🌱</div>
+          <h2>No habits yet</h2>
+          <p>Go to <strong>Manage</strong> to add your first habit.</p>
+        </div>
+
+        <div id="today-complete" class="complete-banner hidden">
+          <div class="complete-icon">🎉</div>
+          <h2>All done for today!</h2>
+          <p>Amazing work. Keep the streak going tomorrow.</p>
+        </div>
+      </section>
+
+      <!-- WEEKLY VIEW -->
+      <section id="view-weekly" class="view">
+        <header class="view-header">
+          <div class="header-left">
+            <h1 class="view-title">Weekly</h1>
+            <p class="view-subtitle">Last 7 days</p>
+          </div>
+          <div class="header-right">
+            <div id="week-score" class="week-score-badge">
+              <span id="week-score-val">0%</span>
+              <span class="week-score-label">this week</span>
+            </div>
+          </div>
+        </header>
+        <div id="weekly-habits" class="weekly-list"></div>
+        <div id="weekly-empty" class="empty-state hidden">
+          <div class="empty-icon">📅</div>
+          <h2>No habits to show</h2>
+          <p>Add habits in <strong>Manage</strong> to see your weekly progress.</p>
+        </div>
+      </section>
+
+      <!-- STATS VIEW -->
+      <section id="view-stats" class="view">
+        <header class="view-header">
+          <div class="header-left">
+            <h1 class="view-title">Statistics</h1>
+            <p class="view-subtitle">Your progress overview</p>
+          </div>
+        </header>
+        <div id="stats-cards" class="stats-grid"></div>
+        <div id="stats-habits" class="stats-habits-list"></div>
+        <div id="stats-empty" class="empty-state hidden">
+          <div class="empty-icon">📊</div>
+          <h2>No stats yet</h2>
+          <p>Complete some habits to see your statistics.</p>
+        </div>
+      </section>
+
+      <!-- MANAGE VIEW -->
+      <section id="view-manage" class="view">
+        <header class="view-header">
+          <div class="header-left">
+            <h1 class="view-title">Manage</h1>
+            <p class="view-subtitle">Add and edit your habits</p>
+          </div>
+          <div class="header-right">
+            <button id="open-add-modal" class="btn-primary">+ New Habit</button>
+          </div>
+        </header>
+        <div id="manage-habits" class="manage-list"></div>
+        <div id="manage-empty" class="empty-state hidden">
+          <div class="empty-icon">✨</div>
+          <h2>Start building your routine</h2>
+          <p>Tap <strong>+ New Habit</strong> to get started.</p>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Add / Edit Habit Modal -->
+  <div id="habit-modal" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal">
+      <div class="modal-header">
+        <h2 id="modal-title">New Habit</h2>
+        <button class="modal-close" id="close-modal" aria-label="Close">✕</button>
+      </div>
+      <div class="modal-body">
+        <label class="field-label">Name</label>
+        <input id="habit-name" class="field-input" type="text" placeholder="e.g. Morning run" maxlength="40" />
+
+        <label class="field-label">Icon</label>
+        <div id="icon-picker" class="icon-picker"></div>
+
+        <label class="field-label">Color</label>
+        <div id="color-picker" class="color-picker"></div>
+
+        <label class="field-label">Target</label>
+        <div class="target-row">
+          <select id="habit-frequency" class="field-select">
+            <option value="daily">Every day</option>
+            <option value="weekdays">Weekdays only</option>
+            <option value="weekends">Weekends only</option>
+          </select>
+        </div>
+
+        <label class="field-label">Note (optional)</label>
+        <input id="habit-note" class="field-input" type="text" placeholder="Reminder or motivation..." maxlength="80" />
+      </div>
+      <div class="modal-footer">
+        <button id="delete-habit-btn" class="btn-danger hidden">Delete Habit</button>
+        <div class="modal-actions">
+          <button id="cancel-modal" class="btn-secondary">Cancel</button>
+          <button id="save-habit-btn" class="btn-primary">Save</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Confirm Delete Dialog -->
+  <div id="confirm-modal" class="modal-overlay hidden" role="dialog" aria-modal="true">
+    <div class="modal modal-sm">
+      <div class="modal-header">
+        <h2>Delete Habit?</h2>
+      </div>
+      <div class="modal-body">
+        <p>This will permanently delete <strong id="confirm-habit-name"></strong> and all its history.</p>
+      </div>
+      <div class="modal-footer">
+        <div class="modal-actions">
+          <button id="confirm-cancel" class="btn-secondary">Cancel</button>
+          <button id="confirm-delete" class="btn-danger">Delete</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
