@@ -205,6 +205,7 @@ Twenty obstacles, mapped to the four terms of the Value Equation.
 5. A new scheme takes weeks to reach enough members to be worth reading.
 
 **Effort and sacrifice**
+
 6. No appetite for learning a dashboard between 7am and 4pm.
 7. Barista turnover is constant, so anything requiring training dies by week three.
 8. They have no email list and no idea how to start one legally.
@@ -215,6 +216,7 @@ Twenty obstacles, mapped to the four terms of the Value Equation.
     watched someone else fail at it.
 
 **Perceived likelihood of achievement**
+
 12. The loyalty apps they have seen look generic and cheap, and made the shop look
     cheaper by association.
 13. They have been burned before by a web person or agency who took a deposit and
@@ -227,6 +229,7 @@ Twenty obstacles, mapped to the four terms of the Value Equation.
     risk, and it is the largest single obstacle in the list.
 
 **Risk of failure and cost**
+
 18. Twelve-month software contracts for a tool they may abandon in six weeks.
 19. The money is competing with a new grinder, which is tangible and definitely works.
 20. GDPR nerves about holding customer names and emails.
