@@ -29,9 +29,9 @@ up, probably between orders. Every decision below is made in service of that fac
 | — | 2. Your club | *(section header)* | Section title | — | Title: **Your club** | "What you want it to do for you." |
 | 6 | 2 | What do you most want the club to do? | Checkboxes | **Yes** | • Turn one-off customers into regulars<br>• Win back people who stopped coming<br>• Finally have a list of my own customers<br>• Replace the paper stamp card<br>• See whether my offers actually work<br>• Get more Google reviews | "Tick everything that applies. It changes which campaigns I set up first." |
 | 7 | 2 | When do you want to be live? | Multiple choice | **Yes** | • As soon as possible<br>• Within the next month<br>• Next quarter<br>• Just researching for now | "Go-live is 7 days from receiving your logo, so 'as soon as possible' is realistic." |
-| 8 | 2 | Which looks right for you? | Multiple choice | **Yes** | • **Founding Partner — £1,497 for the year, paid up front** (saves £564)<br>• **Monthly — £297 to launch, then £147/month**<br>• **More than one site — send me a quote**<br>• **Under £100 a month is my limit**<br>• Not sure yet, talk me through it | "Nothing is binding here. The founding price covers the first ten shops only." |
+| 8 | 2 | Which suits you better? | Multiple choice | **Yes** | • **Pay for the year up front** (the better price)<br>• **Pay monthly**<br>• **I'm after something free or nearly free**<br>• Not sure yet, talk me through it | "The exact figures are in the message that sent you here. Nothing you pick is binding." |
 | — | 3. Last bit | *(section header)* | Section title | — | Title: **Last bit** | — |
-| 9 | 3 | Have you got a logo file ready? | Multiple choice | **Yes** | • Yes, I'll email it over<br>• Yes, but only as a JPG or a photo of my sign<br>• No, and I need help with one | "PNG or SVG is ideal. A photo of your sign genuinely works, so don't let this hold you up." |
+| 9 | 3 | Have you got a logo file ready? | Multiple choice | **Yes** | • Yes, I'll email it over<br>• Yes, but only as a JPG or a photo of my sign<br>• No, I haven't got one | "PNG or SVG is ideal. A photo of your sign genuinely works, so don't let this hold you up." |
 | 10 | 3 | How did you hear about me? | Short answer | No | None | *(none needed)* |
 
 Plus one automatic field: **Email address**, collected by the setting in step 5
@@ -52,7 +52,7 @@ cut and every risk, so you can overrule me with your eyes open.
 | Website or social handle | **Kept, required** | Doubles as your qualifier. No web presence at all is a signal about how this client will handle their side of the launch. |
 | What they want delivered | **Kept, reframed as outcomes** | Deliberately worded as results, not features, so it echoes the offer sheet rather than asking a coffee shop owner to spec software. |
 | Deadline | **Kept, as bands not a date** | A date picker on a phone is four taps and a wrong guess. Bands answer the only question you actually have: are they buying now. |
-| Budget band | **Kept, reframed as plan choice** | "What's your budget?" invites a lowball and raises abandonment. "Which looks right for you?" against your real tiers gets a truer answer, and the £100 ceiling option is a deliberate disqualifier that saves you a call. |
+| Budget band | **Kept, reframed as plan shape, and deliberately price-free** | "What's your budget?" invites a lowball and raises abandonment. Asking which shape suits them gets a truer answer. It names no figures, for two reasons: you are running two price variants and one form has to serve both, and the price is already in the message that sent them here. "Free or nearly free" is the disqualifier, and it disqualifies under either variant. |
 | Assets or files to send | **Cut the upload. Kept as a yes/no.** | **This is the important one.** A Google Forms file-upload question forces respondents to sign in to a Google account. Half your cold prospects are on Outlook or iCloud, and a sign-in wall mid-form is the highest-abandonment thing you can put in front of them. Ask whether they have a logo, then collect it by email reply. |
 | How they heard about me | **Kept, optional** | Only useful once you run more than one channel. **If all your outreach is cold email and walk-ins, cut it entirely — you already know the answer.** |
 
@@ -243,7 +243,7 @@ With the settings above, the Sheet is created with these columns, left to right:
 | G | Website or Instagram handle |
 | H | What do you most want the club to do? |
 | I | When do you want to be live? |
-| J | Which looks right for you? |
+| J | Which suits you better? |
 | K | Have you got a logo file ready? |
 | L | How did you hear about me? |
 
@@ -298,8 +298,9 @@ Leave M empty. Add these headers in row 1:
 | P | **Paid** | Date | |
 | Q | **Go-Live** | Date | Their date, seven days after you have the logo |
 | R | **Follow-up Date** | Date | The one column that drives your day |
-| S | **Plan** | Dropdown | Founding Annual / Monthly / Multi-site / Declined |
-| T | **Notes** | Long text | |
+| S | **Plan** | Dropdown | Annual / Monthly / Declined |
+| T | **Price Variant** | Dropdown | `A` (£1,497/yr) or `B` (£99/mo) |
+| U | **Notes** | Long text | Record any price objection in the client's own words. That is the pricing test's real output. |
 
 **Build the Status dropdown:**
 1. Select **N2:N1000**.
@@ -313,7 +314,15 @@ Leave M empty. Add these headers in row 1:
    so a typo does not block you mid-flow.
 6. Click **Done**.
 
-Do the same for **column S** with the four Plan values.
+Do the same for **column S** with the three Plan values, and for **column T** with
+`A` and `B`.
+
+**Fill in column T by hand as you send each message.** With ten shops you do not
+need automation, and you already know which variant each one got. If you scale the
+test past thirty, use a Google Forms **pre-filled link** instead: fill the form in
+once, choose **Get pre-filled link** from the ⋮ menu, and it generates a URL that
+pre-populates a field. Send the A link to one arm and the B link to the other, and
+the variant records itself.
 
 Dropdown chip colours give you most of the at-a-glance read on their own. The rules
 below add the things a chip cannot show you: whole rows that need attention, and
@@ -321,7 +330,7 @@ dates that have passed.
 
 ### Conditional formatting rules
 
-Select **A2:T1000** first, then **Format → Conditional formatting → Add another
+Select **A2:U1000** first, then **Format → Conditional formatting → Add another
 rule** for each. Every rule below uses **Custom formula is**, and the `$` before
 each column letter is what makes the whole row colour rather than a single cell.
 
@@ -334,7 +343,7 @@ each column letter is what makes the whole row colour rather than a single cell.
 | 5 | Follow-up today | `=$R2=TODAY()` | Orange background |
 | 6 | Offer sent, gone quiet 7+ days | `=AND($O2<>"",$N2="Offer Sent",TODAY()-$O2>=7)` | Yellow background |
 | 7 | Paid but not live yet | `=AND($P2<>"",$N2="Paid")` | Blue left border, or blue text |
-| 8 | Budget disqualified | `=REGEXMATCH($J2&"","Under £100")` | Light red text, no fill |
+| 8 | Budget disqualified | `=REGEXMATCH($J2&"","free or nearly free")` | Light red text, no fill |
 
 **Rule order matters.** Google applies the first rule that matches and stops for
 that property, so drag rule 4 to the top of the list. An overdue follow-up on a
@@ -394,9 +403,10 @@ to an address you check weekly is worse than no alert, because you will trust it
    controls occasionally, most often the Settings groupings and the Publish/Send
    buttons. If a label has moved, the setting still exists under the same name, so
    search the Settings tab for the wording in bold.
-3. **The pricing tiers in question 8 come straight from Part 1** of the offer
-   document, including the deliberate £1,497 anchor. If you overrule that pricing,
-   question 8 and conditional formatting rule 8 both need updating.
+3. **Question 8 names no prices on purpose.** You are running two price variants
+   against each other, and one form serving both cannot hard-code either. The
+   figures live in the outreach message and on the offer sheet instead, and the
+   variant each client saw is recorded in column T by hand.
 4. **Nine questions assumes cold outreach to strangers.** For warm referrals, where
    completion is much less fragile, you can afford to add the file upload and a
    free-text "anything else I should know" field.

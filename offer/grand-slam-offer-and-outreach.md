@@ -1,7 +1,7 @@
 # The Regulars Engine — Grand Slam Offer & Outreach
 
 **Product:** white-labelled digital rewards club for independent hospitality, delivered as configuration on your multi-tenant platform.
-**Built for:** independent specialty coffee shops, 1–3 sites, UK.
+**Built for:** single-site independent specialty coffee shops, UK.
 **Currency:** GBP throughout (your stated price band is £39–£119/month).
 
 ---
@@ -75,6 +75,14 @@ remember to open.
 
 ---
 
+### What this isn't
+
+So there are no surprises. I run your rewards club, not your wider social media.
+Single site only for now. And you bring your own logo, I don't design one from
+scratch.
+
+---
+
 ### The price
 
 **Founding Partner — £1,497 for the first full year, paid up front.**
@@ -111,10 +119,12 @@ And before that, a straight exit:
 
 ### Why now
 
-I onboard **four shops a month**, because each one gets its branding, its print
-kit and its campaigns built by hand. The Founding Partner price is held for the
-**first ten shops** only, and it holds because I want ten sets of real numbers
-more than I want your money. After the tenth, the annual goes to £2,388.
+The Founding Partner price is held for the **first ten shops** only, and it holds
+because I want ten sets of real numbers more than I want your money. After the
+tenth, the annual goes to £2,388.
+
+I take a small number on at a time, because each club is branded, printed and set
+up by hand.
 
 **Next cohort goes live [insert your date].** Your logo needs to be with me seven
 days before.
@@ -137,7 +147,7 @@ what a free coffee costs you. I do the rest.
 
 ## Step 1 — Narrow the market
 
-**Independent specialty coffee shops, 1–3 sites, UK, owner-operator on the floor,
+**Single-site independent specialty coffee shops, UK, owner-operator on the floor,
 already running a paper stamp card.**
 
 Against Hormozi's four criteria:
@@ -362,15 +372,27 @@ that substitutes for case studies.
 
 Both built from real constraints, nothing invented:
 
-- **Real capacity limit.** Four onboardings a month, because each includes hand-built
-  branding, a posted print kit and campaign setup. *(This number is an assumption
-  — see the assumptions log.)*
+- **Capacity: left unstated, deliberately.** You do not yet know how many shops a
+  month you can onboard, so no number appears anywhere in the client-facing copy.
+  Claiming "four a month" when you cannot back it up is exactly the fabricated
+  countdown this step exists to avoid, and in a niche where every owner knows every
+  other owner it is the kind of claim that gets checked. The copy says "a small
+  number at a time", which is true today. Replace it with a real figure once you
+  have one.
 - **Real cohort date.** Set one actual go-live date per month and hold it. Logos
   due seven days prior. That deadline is genuine: print and post take that long.
 - **Real founding-price rationale.** Ten shops at the founding price because you
   need ten sets of numbers to sell the eleventh. This is true, it is easy to say
   out loud, and it converts better than a fake countdown because the client
   understands exactly what they are trading.
+
+**Working out your real capacity.** Time your first onboarding end to end: branding
+config, print kit ordered and posted, campaigns loaded, staff drill sent. Call that
+H hours. Then count the hours a month you can genuinely give to onboarding, as
+opposed to selling, supporting and building. Divide, then take 70% of the answer,
+because the first one is always faster in memory than it was in reality. That is
+your number. It is worth getting, because capacity scarcity is the most credible
+urgency available to you: it is true, and it survives being checked.
 
 Do not run expiring discount timers. In a niche this small and this
 word-of-mouth-driven, being caught with a permanent "ends Friday" costs you more
@@ -401,12 +423,129 @@ writing.
 ---
 ---
 
+# PART 1B — THE PRICING TEST
+
+You chose to test both rather than pick one. Here is the second variant, what each
+is worth to you, and the design for running them against each other.
+
+## Variant B: inside your £39–£119 band
+
+A drop-in replacement for **The price** block on the offer sheet:
+
+> ### The price
+>
+> **£99 a month. No setup fee. Three months minimum, then cancel whenever you like.**
+>
+> Everything above. Setup, branding, the posted launch kit, the win-back campaigns
+> run for you, the monthly scorecards.
+>
+> **Or pay for the year up front: £999, and save £189.**
+>
+> Twenty-five extra coffees a month covers it.
+
+And a replacement for the performance guarantee, because Variant B has no launch
+fee to refund:
+
+> "If your club has not reached 150 enrolled members within 90 days of go-live, I
+> will continue running your campaigns at no charge until it does, and your next
+> three months are free. You keep the platform and your customer list throughout."
+
+That keeps your exposure symmetrical: £297 refunded under A, £297 of free service
+under B. The 30-day unconditional refund is unchanged and applies to both.
+
+## What each variant is worth to you
+
+| | Year 1 revenue | Cash on day one | You break even on setup | Exposure if they leave at month 2 |
+|---|---|---|---|---|
+| **A, annual** | £1,497 | £1,497 | Immediately | None, already paid |
+| **A, monthly** | £2,061 | £297 | Month 1 | Recovered |
+| **B, annual** | £999 | £999 | Immediately | None, already paid |
+| **B, monthly** | £1,188 | £99 | **Month 3** | **£140 down** |
+
+Setup costs you roughly £240: five hours of your time plus £40 of print. That is
+why Variant B carries a three-month minimum. Without it, a client who leaves in
+week six has cost you money, and at £99 with no commitment you would be running an
+expensive free trial for strangers.
+
+**A is worth 26–74% more per client than B.**
+
+## The decision rule
+
+£1,497 divided by £999 is 1.5. So:
+
+> **Variant B has to convert at least 1.5 times better than Variant A just to draw
+> level on revenue.**
+
+If A closes 2 of 5 and B closes 3 of 5, that is a tie, and you should keep A
+anyway: it pays you on day one, and a client who hands over £1,497 up front is
+markedly less likely to churn at month four than one paying £99 a month. Only a
+decisive win for B, closing roughly twice as often, should move you.
+
+## What ten shops can and cannot tell you
+
+**Cannot: a statistically significant answer.** Detecting a real difference in
+conversion rate needs something like 50 to 100 prospects per arm. Ten split two
+ways is five and five. A 2-of-5 against 3-of-5 result is noise, and treating it as
+a finding would be worse than not testing at all.
+
+**Can, and this is the part worth having:**
+
+- Whether price is the objection at all. It may well be proof, or timing, or the
+  fact that they have never heard of you.
+- Whether anyone will pay a year up front to a stranger with no case studies. That
+  is the real question hiding inside your pricing conflict, and five attempts
+  answers it well enough.
+- The exact words people use when they say no. That is qualitative data, ten is a
+  perfectly good sample for it, and it is more useful than either close rate.
+
+## How to run it
+
+1. **Alternate strictly.** Odd-numbered prospects get A, even get B, in the order
+   you contact them. Do not choose per shop. If you pick, you will unconsciously
+   send the higher price to the shops that look busier and the result will be
+   meaningless.
+2. **Never send two prices into the same town.** These owners know each other, they
+   drink in each other's shops, and being caught quoting £1,497 to one and £999 to
+   the one down the road costs you both. Split by town, not by street. This is the
+   largest risk in running the test at all.
+3. **Change nothing else.** Same message, same subject line, same day of the week,
+   same time.
+4. **Record the objection verbatim** in the Notes column of your tracking sheet.
+   That is the test's actual output, not the close rate.
+5. **Stop early when the pattern is obvious.** If four of your first five Variant A
+   prospects object specifically to the price, switch everyone to B and stop. You
+   have your answer and the remaining data will not improve it.
+
+## Which outreach lines change under Variant B
+
+Three lines, nothing else:
+
+| Where | Variant A | Variant B |
+|---|---|---|
+| Email, price line | "£1,497 for the first year. If you don't have 150 members in 90 days, I keep working for free until you do and refund the launch fee." | "£99 a month, three months minimum, nothing to set up. If you don't have 150 members in 90 days, I keep working for free until you do and your next three months are free." |
+| Day 3 follow-up | "The whole thing costs £124 a month." | "The whole thing costs £99 a month." |
+| Day 7 follow-up | "After that it roughly doubles" | "After that it goes up" |
+
+The DM needs no change. It names no price, which is deliberate.
+
+## My recommendation
+
+**Run the free pilot from the quality check before you run this test.** Proof
+changes willingness to pay, so testing price while you have no case study measures
+how much a stranger trusts an unproven stranger, not what your offer is worth. You
+would be spending your only ten founding slots answering the wrong question.
+
+If you do only one of the two, do the pilot.
+
+---
+---
+
 # PART 2 — THE OUTREACH
 
 Written for an owner reading on a phone between orders. No credentials in the
 opening line, because they do not care yet.
 
-## DM / Instagram / LinkedIn (108 words)
+## DM / Instagram / LinkedIn (115 words)
 
 > Quick question about the stamp card by your till.
 >
@@ -418,12 +557,13 @@ opening line, because they do not care yet.
 > scan a QR on the table and the card sits in their phone. You get a list of your
 > own customers and a monthly note telling you what the scheme actually earned you.
 >
-> I take four shops a month. If you want the details, the form is here: [FORM LINK]
+> I'm setting up ten shops at a founding price before it goes up. Details here:
+> [FORM LINK]
 
 **Note on channel:** send this as a second message, after a genuine first one about
 their shop. Cold-open with the pitch and Instagram buries it.
 
-## Email (272 words)
+## Email (262 words)
 
 **Subject lines**
 1. `the stamp card by your till`
@@ -459,11 +599,11 @@ otherwise it reads as surveillance.*
 > £1,497 for the first year. If you don't have 150 members in 90 days, I keep
 > working for free until you do and refund the launch fee.
 >
-> I take four shops a month. The form takes four minutes: [FORM LINK]
+> I'm holding that price for ten shops. The form takes four minutes: [FORM LINK]
 >
 > [Your name]
 
-## Follow-up, day 3 (62 words)
+## Follow-up, day 3 (58 words)
 
 > Hi [First name],
 >
@@ -477,7 +617,7 @@ otherwise it reads as surveillance.*
 >
 > [Your name]
 
-## Follow-up, day 7 (71 words)
+## Follow-up, day 7 (69 words)
 
 > Hi [First name],
 >
@@ -517,19 +657,19 @@ subject line.
 
 Marked clearly, in order of how much they would change the work if wrong.
 
-1. **Capacity of four onboardings a month is my assumption, not your answer.** You
-   left capacity blank. Four is derived from an estimated 4–6 hours of hand-built
-   configuration, print and campaign setup per client. Every scarcity claim in the
-   offer rests on this number. **Correct it and the offer sheet needs one edit.**
-2. **The pricing conflict.** You told me the product is £39–£119/month, and
-   separately that you currently charge $500–$2,000. I have read the first as your
-   intended market price and the second as either one-off build work or a setup
-   fee. My recommendation deliberately breaks the £119 ceiling, because at that
-   price the offer cannot fund its own delivery. If £39–£119 was a hard constraint
-   from a decision you have already made, tell me and I will rebuild step 8 to fit
-   inside it, but the guarantee and the print kit will have to come out.
+1. **Capacity is now unstated by design, not assumed.** You told me you do not know
+   your monthly onboarding capacity, so every numeric capacity claim has been
+   removed from the client-facing copy rather than guessed at. Scarcity now rests
+   entirely on the founding-ten rationale, which is true and checkable. Time your
+   first onboarding and use the worksheet in step 11 to derive the real figure.
+2. **The pricing conflict is being tested, not resolved.** You told me the product
+   is £39–£119/month and separately that you charge $500–$2,000. Rather than pick,
+   both are now built: Variant A at £1,497 a year, Variant B at £99 a month inside
+   your stated band. Part 1B carries the design and the decision rule. Read the
+   section on what ten shops cannot tell you before you treat the result as an
+   answer.
 3. **Sub-niche choice.** You named clubs, coffee shops, cafés, barbershops and
-   small restaurants. I narrowed to independent specialty coffee, 1–3 sites, and I
+   small restaurants. I narrowed to single-site independent specialty coffee, and I
    have shown my reasoning in step 1. The platform serves all five. This is a
    go-to-market choice, not a product limitation.
 4. **UK, GBP, and a UK-shaped market.** Inferred from your £ pricing. The £4.20
@@ -539,11 +679,12 @@ Marked clearly, in order of how much they would change the work if wrong.
    conservative reading of published loyalty-programme benchmarks rather than
    anything measured on your platform. Replace it with your own numbers as soon as
    the founding ten produce them.
-6. **Scope limits are unknown.** You left "what I will NOT do" blank, so the offer
-   currently promises campaign writing and monthly reporting with no stated
-   boundary. Before you send this, decide: are you willing to run their wider
-   social media, integrate with their till, or handle multi-site? Add the answer
-   as a line in the agreement.
+6. **Scope limits are yours now, not assumed.** You ruled out wider social media,
+   multi-site clients and logo design. All three appear on the offer sheet under
+   "What this isn't", and the intake form no longer offers a multi-site plan or a
+   "help me with a logo" answer. **You did not rule out till and POS integration**,
+   so the offer still implies you would consider it, and a shop on Square may well
+   ask. If that was an oversight rather than a decision, it takes one line to add.
 7. **"Live in 7 days" and "15-minute staff training" are treated as true** because
    you stated them. If the platform cannot currently hit either, both are load
    bearing promises in every message here.
@@ -597,3 +738,9 @@ month of forgone revenue from a single client you do not yet have, which is the
 cheapest thing you will ever buy.
 
 Do this before you send a single cold email. It is worth the delay.
+
+**And do it before the pricing test in Part 1B.** The two are connected in a way
+that is easy to miss: proof raises what people will pay, so running the price test
+first would measure how much a stranger trusts an unproven stranger, and then you
+would have spent five of your ten founding slots answering a question that the
+pilot changes the answer to. Pilot, then test, then sell. In that order.
