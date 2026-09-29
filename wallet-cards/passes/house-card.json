@@ -1,0 +1,100 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.com.freshlooks.rewards",
+  "teamIdentifier": "YOURTEAMID",
+  "organizationName": "Fresh Looks",
+  "logoText": "FRESH LOOKS",
+  "serialNumber": "FL-4821093755162048",
+  "description": "Fresh Looks House Card",
+  "backgroundColor": "rgb(21,21,19)",
+  "foregroundColor": "rgb(241,237,224)",
+  "labelColor": "rgb(201,164,74)",
+  "barcodes": [
+    {
+      "format": "PKBarcodeFormatQR",
+      "message": "FRESHLOOKS:4821093755162048",
+      "messageEncoding": "iso-8859-1",
+      "altText": "4821 0937 5516 2048"
+    }
+  ],
+  "storeCard": {
+    "headerFields": [
+      {
+        "key": "tier",
+        "label": "TIER",
+        "value": "Regular"
+      }
+    ],
+    "primaryFields": [
+      {
+        "key": "balance",
+        "label": "BALANCE",
+        "value": 186,
+        "changeMessage": "You now have %@ points"
+      }
+    ],
+    "secondaryFields": [
+      {
+        "key": "member",
+        "label": "MEMBER",
+        "value": "Liam Williams"
+      },
+      {
+        "key": "next",
+        "label": "NEXT REWARD",
+        "value": "Free fade",
+        "textAlignment": "PKTextAlignmentRight"
+      }
+    ],
+    "auxiliaryFields": [
+      {
+        "key": "togo",
+        "label": "TO GO",
+        "value": "64 pts"
+      },
+      {
+        "key": "visits",
+        "label": "VISITS",
+        "value": 11
+      },
+      {
+        "key": "booster",
+        "label": "BOOSTER",
+        "value": "2× Tue",
+        "textAlignment": "PKTextAlignmentRight"
+      }
+    ],
+    "backFields": [
+      {
+        "key": "earn",
+        "label": "How you earn",
+        "value": "1 point per £1 spent on cuts, beard work and products. 20 bonus points on your first visit."
+      },
+      {
+        "key": "shop",
+        "label": "Points shop",
+        "value": "Free line-up: 80\nFree beard trim: 120\n£5 off any cut: 150\nFree fade: 250\nFree cut & beard combo: 400"
+      },
+      {
+        "key": "boost",
+        "label": "Boosters on now",
+        "value": "Double points Tuesdays. Refer a mate and you both get 100 bonus points."
+      },
+      {
+        "key": "hours",
+        "label": "Opening hours",
+        "value": "Tuesday to Saturday, 09:00 to 18:00"
+      },
+      {
+        "key": "address",
+        "label": "Find us",
+        "value": "Cardiff City Centre"
+      },
+      {
+        "key": "terms",
+        "label": "Small print",
+        "value": "Demo pass. Fresh Looks is fictional and all names and numbers are examples."
+      }
+    ]
+  }
+}

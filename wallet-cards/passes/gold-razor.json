@@ -1,0 +1,95 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.com.freshlooks.rewards",
+  "teamIdentifier": "YOURTEAMID",
+  "organizationName": "Fresh Looks",
+  "logoText": "FRESH LOOKS",
+  "serialNumber": "FL-3306551902748813",
+  "description": "Fresh Looks Gold Razor VIP",
+  "backgroundColor": "rgb(201,164,74)",
+  "foregroundColor": "rgb(21,21,19)",
+  "labelColor": "rgb(74,64,40)",
+  "barcodes": [
+    {
+      "format": "PKBarcodeFormatQR",
+      "message": "FRESHLOOKS:VIP:3306551902748813",
+      "messageEncoding": "iso-8859-1",
+      "altText": "3306 5519 0274 8813"
+    }
+  ],
+  "storeCard": {
+    "headerFields": [
+      {
+        "key": "tier",
+        "label": "TIER",
+        "value": "Gold Razor"
+      }
+    ],
+    "primaryFields": [
+      {
+        "key": "balance",
+        "label": "BALANCE",
+        "value": 318,
+        "changeMessage": "You now have %@ points"
+      }
+    ],
+    "secondaryFields": [
+      {
+        "key": "member",
+        "label": "MEMBER",
+        "value": "Carter Hughes"
+      },
+      {
+        "key": "fade",
+        "label": "YOUR FADE",
+        "value": "At a #2",
+        "textAlignment": "PKTextAlignmentRight"
+      }
+    ],
+    "auxiliaryFields": [
+      {
+        "key": "toskin",
+        "label": "TO SKIN",
+        "value": "82 pts"
+      },
+      {
+        "key": "rate",
+        "label": "EARNING",
+        "value": "1.5×"
+      },
+      {
+        "key": "since",
+        "label": "SINCE",
+        "value": "Jan 2026",
+        "textAlignment": "PKTextAlignmentRight"
+      }
+    ],
+    "backFields": [
+      {
+        "key": "perks",
+        "label": "Gold Razor perks",
+        "value": "1.5× points on every visit, priority Saturday slots and a free hot towel finish in your birthday month."
+      },
+      {
+        "key": "meter",
+        "label": "The fade meter",
+        "value": "#8 to #4: 0–199 pts\n#3 to #1: 200–349 pts\n#½: 350–399 pts\nSkin (free cut & beard combo): 400 pts"
+      },
+      {
+        "key": "hours",
+        "label": "Opening hours",
+        "value": "Tuesday to Saturday, 09:00 to 18:00"
+      },
+      {
+        "key": "address",
+        "label": "Find us",
+        "value": "Cardiff City Centre"
+      },
+      {
+        "key": "terms",
+        "label": "Small print",
+        "value": "Demo pass. Fresh Looks is fictional and all names and numbers are examples."
+      }
+    ]
+  }
+}

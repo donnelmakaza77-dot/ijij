@@ -1,0 +1,84 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.com.freshlooks.rewards",
+  "teamIdentifier": "YOURTEAMID",
+  "organizationName": "Fresh Looks",
+  "logoText": "FRESH LOOKS",
+  "serialNumber": "FL-7730118466029951",
+  "description": "Fresh Looks Ten-Cut Club",
+  "backgroundColor": "rgb(240,235,220)",
+  "foregroundColor": "rgb(29,28,26)",
+  "labelColor": "rgb(150,118,40)",
+  "barcodes": [
+    {
+      "format": "PKBarcodeFormatQR",
+      "message": "FRESHLOOKS:STAMP:7730118466029951",
+      "messageEncoding": "iso-8859-1",
+      "altText": "7730 1184 6602 9951"
+    }
+  ],
+  "storeCard": {
+    "headerFields": [
+      {
+        "key": "stamps",
+        "label": "STAMPS",
+        "value": "7 of 10",
+        "changeMessage": "Stamped! %@"
+      }
+    ],
+    "primaryFields": [],
+    "secondaryFields": [
+      {
+        "key": "member",
+        "label": "MEMBER",
+        "value": "Daniel Evans"
+      },
+      {
+        "key": "free",
+        "label": "FREE CUT IN",
+        "value": "3 visits",
+        "textAlignment": "PKTextAlignmentRight"
+      }
+    ],
+    "auxiliaryFields": [
+      {
+        "key": "last",
+        "label": "LAST VISIT",
+        "value": "Mid taper · Jayden"
+      },
+      {
+        "key": "nextchair",
+        "label": "NEXT CHAIR",
+        "value": "Sat 4 Oct, 11:30",
+        "textAlignment": "PKTextAlignmentRight"
+      }
+    ],
+    "backFields": [
+      {
+        "key": "how",
+        "label": "How stamps work",
+        "value": "One stamp for any cut or beard service over £12. Scan at the till before you pay."
+      },
+      {
+        "key": "tenth",
+        "label": "Your tenth visit",
+        "value": "Any fade or taper, free."
+      },
+      {
+        "key": "hours",
+        "label": "Opening hours",
+        "value": "Tuesday to Saturday, 09:00 to 18:00"
+      },
+      {
+        "key": "address",
+        "label": "Find us",
+        "value": "Cardiff City Centre"
+      },
+      {
+        "key": "terms",
+        "label": "Small print",
+        "value": "Demo pass. Fresh Looks is fictional and all names and numbers are examples."
+      }
+    ]
+  }
+}
